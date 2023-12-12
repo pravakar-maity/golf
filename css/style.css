@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background-color: #7ba010;
+    position: fixed;
+    z-index: 9;
+
+}
+
+.brand-font {
+    font-size: 30px !important;
+    font-weight: 600;
+}
+
+.brand-font img {
+    padding-bottom: 6px;
+}
+
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/b1.jpg);
+    background-size: cover;
+
+}
+
+#banner img {
+    height: auto;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.content-box {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.content-box h1 {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 50px !important;
+    font-weight: 600;
+}
+
+.content-box p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.content-box button {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-box button:hover {
+    background-color: #fff;
+    color: #7ba010;
+    transition: all .9s;
+}
+
+.box-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-2 h4 {
+    padding-top: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.box-2 h4:hover {
+    color: #7ba010;
+}
+
+.box-2 p {
+    color: #4e4c4c;
+}
+
+.img:hover {
+    opacity: .6;
+
+    cursor: pointer;
+}
+
+#about {
+    background-color: #e8edf1 !important;
+
+}
+
+.box-3 {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.image-box {
+    background-image: url(../images/b3.jpg);
+    background-size: 100% 100%;
+
+}
+
+.imgb3 {
+    width: 700px;
+    height: 500px;
+}
+
+.content-box2 h2,
+h3 {
+    font-size: 50px;
+    padding-top: 15px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+.content-box2 p {
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 7px;
+    color: #4e4c4c;
+    padding-left: 40px;
+}
+
+#offer-layout {
+    padding: 70px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.grid-box {
+    height: auto;
+    /* background-color:#7ba010 ; */
+    gap: 30px;
+}
+
+.grid-box a {
+    font-size: 24px;
+    color: #df9d0f;
+
+}
+
+.grid-box a i {
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    background-color: #fcf7da;
+    padding-top: 10px;
+}
+
+.grid-box a i:hover {
+    color: #fff;
+    background-color: #df9d0f;
+    cursor: auto
+}
+
+
+
+.grid-box h4 {
+    padding-top: 40px;
+    font-weight: 600;
+    color: #363333;
+}
+
+.grid-box h4:hover {
+    color: #7ba010;
+    cursor: pointer;
+    transition: all .9s;
+}
+
+.grid-box p {
+    font-size: 16px;
+    color: #4e4c4c;
+    line-height: 30px;
+    padding-top: 5px;
+}
+
+#golf {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/b2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.golf-box {
+    width: 40%;
+    height: 60%;
+    background-color: #fff;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    text-align: center;
+}
+
+.golf-box h5 {
+    font-size: 23px;
+    color: #7ba010;
+    margin-top: 60px;
+}
+
+.golf-box h4 {
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.golf-box button {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #df9d0f;
+    background-color: transparent;
+    color: #df9d0f;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+
+.golf-box button:hover {
+    color: #fff;
+    background-color: #df9d0f;
+    transition: all .5s;
+    border: none;
+}
+
+
+#meet {
+    width: 100%;
+    height: auto;
+    padding: 60px 0 30px 0;
+
+}
+
+.titel {
+    text-align: center;
+}
+
+.titel h3 {
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.titel p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #4e4c4c;
+}
+
+.line1 {
+    width: 100px;
+    height: 3px;
+    background-color: #7ba010;
+    position: absolute;
+    right: 45%;
+    margin-top: 10px;
+}
+
+.line2 {
+    width: 60px;
+    height: 3px;
+    background-color: #df9d0f;
+    position: absolute;
+    right: 45%;
+    margin-top: 20px;
+}
+
+.meet1 {
+    padding-top: 10%;
+}
+
+.row-box {
+    height: 250px;
+    gap: 30px;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.row-box {
+
+    border: 1px solid #a89e9e;
+    height: auto;
+}
+
+.row-box p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    padding-top: 5px;
+    color: #4e4c4c;
+}
+
+.row-box h6 {
+    color: #837979;
+    font-size: 18px;
+}
+
+.row-box img {
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    border: 1px solid #df9d0f;
+    margin-top: 15px;
+}
+
+
+.footer-bottom {
+    width: 100%;
+    height: 60px;
+    background-color: #1a1919;
+    margin-top: -5px;
+}
+
+.icon {
+    float: left;
+    padding-top: 20px;
+}
+
+.icon a {
+    margin: 0 10px;
+    padding: 7px;
+    color: #fff;
+    background-color: #353232;
+    border-radius: 5px;
+}
+
+.icon a:hover {
+    color: #7ba010;
+}
+
+.copy {
+    float: right;
+}
+
+.copy h6 {
+    padding-top: 20px;
+    color: #6b7272;
+}
+
+.copy h6 span:hover {
+    color: #df9d0f;
+    cursor: pointer;
+}
+
+
+
+
+
+#abc-footer {
+    padding: 50px 0;
+    background-color: #212121;
+    margin: 30px 0 0 0;
+}
+
+.box {
+    height: auto;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.box li {
+    list-style: none;
+    color: #fff;
+}
+
+.box li a {
+    color: #fff;
+}
+
+.box span {
+    padding: 0 10px;
+}
+
+.box button:hover {
+    background-color: #df9d0f;
+}
+
+hr {
+    background-color: #3e4444;
+}
+
+.foot-1 li a {
+    cursor: auto;
+}
+
+.foot-2 li a:hover {
+    color: #df9d0f;
+}
+
+.foot-3 li a:hover {
+    color: #df9d0f;
+}
+
+
+
+.mail {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.box button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #7ba010;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
